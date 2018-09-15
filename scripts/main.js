@@ -40,7 +40,7 @@ if(!localStorage.getItem('name')) {
   setUserName();
 } else {
   var storedName = localStorage.getItem('name');
-  myHeading.textContent = 'Mozilla is cool, ' + storedName;
+  myHeading.textContent = 'Welcome, ' + storedName;
 }
 
 myButton.onclick = function() {
