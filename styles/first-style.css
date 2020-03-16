@@ -1,19 +1,16 @@
-/*p,h2 {
-	color: red;
-} */
-
 html {
 	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 14px;
-	background-color: #fff7e0;
+	background-color: #D0FFEE;
 
 }
 
 h1 {
 	margin: 0;
-	padding: 20px 0;
+	padding: 40px;
 	text-shadow: 1px 1px 1px black; /*Horizontal offset,verical,blur rad,color */
-	font-size: 24px;
+	font-size: 72px;
+	font-family: 'Courgette', cursive;
 	text-align: center;
 }
 
@@ -21,7 +18,9 @@ p, li {
 	font-size : 16px;
 	line-height: 1;
 	letter-spacing: 1px;
-	padding: 0px 30px 0px 30px;
+	padding: 20px 30px 0px 30px;
+	color: #222;
+	max-width: 1000px;
 }
 
 img {
@@ -34,13 +33,52 @@ img {
 body {
   width: 1000 px;
   margin: 0 auto;
-  background-color: #fefff7;
-  padding: 0 20px 20px 20px;
-  border: 2px solid black;
+  background-color: #FFE58E;
+  padding: 0px 0px 0px 0px;
 }
 
 button {
 	font-size: 22px;
 	padding: 10px 10px;
 	margin: auto 30px;
+}
+
+.header{
+	background-color: #69B1B3;
+	height: 180px;
+	
+}
+.footer{
+	background-color: #D0FFEE;
+	
+}
+a.button{
+	border: 7px solid #114;
+	border-radius: 90px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 35px;
+	margin-top:30px;
+	text-decoration: none;
+	color: white;
+	transition: 0.45s;
+	font-weight: bold;
+	
+}
+.purple:hover{
+	background-color: #333;
+	color: #9C8EFF;
+	transition: 0.45s;
+}
+.green:hover{
+	background-color: #333;
+	color: #cfa;
+	transition: 0.45s;
+}
+.blue:hover{
+	background-color: #333;
+	color: #449CF6;
+	transition: 0.45s;
 }
