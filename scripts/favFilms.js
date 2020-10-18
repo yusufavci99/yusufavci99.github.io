@@ -12,10 +12,10 @@ let collection = [
     'https://www.imdb.com/title/tt2861424/', // RICK AND MORTY
     'https://www.imdb.com/title/tt0500092/', // SEL
     'https://store.steampowered.com/app/620/', // PORTAL 2
-    'https://store.steampowered.com/app/253230/' // A HAT IN TIME
-    'https://www.imdb.com/title/tt0213338/' // COWBOY BEBOP
-    'https://www.imdb.com/title/tt0259711/' // VANILLA SKY
-    'https://www.imdb.com/title/tt0139809/' // The 13. Floor
+    'https://store.steampowered.com/app/253230/', // A HAT IN TIME
+    'https://www.imdb.com/title/tt0213338/', // COWBOY BEBOP
+    'https://www.imdb.com/title/tt0259711/', // VANILLA SKY
+    'https://www.imdb.com/title/tt0139809/', // The 13. Floor
 
 ]
 
