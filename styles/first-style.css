@@ -20,7 +20,35 @@ p, li {
 	letter-spacing: 1px;
 	padding: 20px 30px 0px 30px;
 	color: #222;
-	max-width: 1000px;
+	/* max-width: 1000px; */
+}
+
+#about-me {
+	display: flex;
+	height: 20vh;
+	/* Works in flex wooh */
+	align-items: center;
+}
+
+#personal-links {
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	margin: 0px auto;
+	/* When the grid is small, use it */
+	justify-content: space-between;
+	height: 20vh;
+}
+
+#personal-links > div
+{
+  margin:5px;  /* and that, will result in a 10px gap */
+}
+
+#second {
+	background-color: #69B1B3;
+	height: 30vh;
 }
 
 img {
@@ -31,7 +59,9 @@ img {
 }
 
 body {
-  width: 1000 px;
+  /* width: 1000 px; */
+  display: flex;
+  flex-direction: column;
   margin: 0 auto;
   background-color: #FFE58E;
   padding: 0px 0px 0px 0px;
@@ -44,14 +74,17 @@ button {
 }
 
 .header{
+	display: flex;
 	background-color: #69B1B3;
-	height: 180px;
+	height: 40vh;
+	align-items: center;
+	justify-content: center;
 	
 }
 .footer{
 	background-color: #D0FFEE;
-	
 }
+
 a.button{
 	border: 7px solid #114;
 	border-radius: 90px;
@@ -81,4 +114,7 @@ a.button{
 	background-color: #333;
 	color: #449CF6;
 	transition: 0.45s;
+}
+ul {
+	margin: 10px;
 }
