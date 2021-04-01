@@ -18,39 +18,45 @@ theme = &amp;#34;theme-name&amp;#34;  Content Organization // Create this to mak
     </item>
     
     <item>
-      <title>Webglanimationdemo</title>
+      <title>WebGL 3D Animation</title>
       <link>https://yusufavci99.github.io/projects/webglanimationdemo/</link>
       <pubDate>Tue, 30 Mar 2021 17:18:43 +0300</pubDate>
       
       <guid>https://yusufavci99.github.io/projects/webglanimationdemo/</guid>
-      <description></description>
+      <description>Source Code
+Sonat Uzun and I created 3D keyframe animations with WebGL. It is possible to save/load keyframes to create different animations with this model. We created the model using primitives and hierarchy.</description>
     </item>
     
     <item>
-      <title>Unityrollgyrodemo</title>
+      <title>Unity Gyroscope Demo</title>
       <link>https://yusufavci99.github.io/projects/unityrollgyrodemo/</link>
       <pubDate>Tue, 30 Mar 2021 17:18:16 +0300</pubDate>
       
       <guid>https://yusufavci99.github.io/projects/unityrollgyrodemo/</guid>
-      <description></description>
+      <description>Made a basic roll-a-ball level with Unity. It used gyroscope sensors of the phone to controll the ball.</description>
     </item>
     
     <item>
-      <title>Crsgauthormodule</title>
+      <title>CRSG Author Module</title>
       <link>https://yusufavci99.github.io/projects/crsgauthormodule/</link>
       <pubDate>Tue, 30 Mar 2021 17:17:08 +0300</pubDate>
       
       <guid>https://yusufavci99.github.io/projects/crsgauthormodule/</guid>
-      <description></description>
+      <description>Code Review Serious Game Author Module was my summer 2020 internship project. I created a serious game used in teaching code review process.
+Used JS, Ace Editor Library, Judge0 API, Ajax, Firebase.</description>
     </item>
     
     <item>
-      <title>Combininggame</title>
+      <title>Combining Game</title>
       <link>https://yusufavci99.github.io/projects/combininggame/</link>
       <pubDate>Tue, 30 Mar 2021 17:16:49 +0300</pubDate>
       
       <guid>https://yusufavci99.github.io/projects/combininggame/</guid>
-      <description></description>
+      <description>Source Code
+This is a Doodle God like game made with Java. You can combine elements to create new elements in the game. It also features a game editor in which you can create your game content such as new elements and recipes.
+Players can see available elements.
+Player can selectt an element by clicking on it.
+By selecting a second element, players can attempt combining them. If the combinati is sucessful, a new element can be unlocked.</description>
     </item>
     
     <item>
@@ -59,7 +65,8 @@ theme = &amp;#34;theme-name&amp;#34;  Content Organization // Create this to mak
       <pubDate>Tue, 30 Mar 2021 17:16:34 +0300</pubDate>
       
       <guid>https://yusufavci99.github.io/projects/tsu/</guid>
-      <description></description>
+      <description>Made an Android application for travel guidance as a group of six. The program has trivia about countries, a flexible dictionary, world clocks. Gained experience in deployment and improving Android cross-device compatibility.
+Detailed Info</description>
     </item>
     
     <item>
@@ -68,16 +75,18 @@ theme = &amp;#34;theme-name&amp;#34;  Content Organization // Create this to mak
       <pubDate>Tue, 30 Mar 2021 17:16:23 +0300</pubDate>
       
       <guid>https://yusufavci99.github.io/projects/webglraytracer/</guid>
-      <description>It&amp;rsquo;s Extremely Cool.</description>
+      <description>Source Code
+Sonat Uzun and I created an interative, procedurally generated ray tracer with WebGL. It can display triangles, spheres and cubes.
+It has numerous options. Randomized trace order randomizes pixel rendering order. This results in blurry images instead of slow scans. Use texture creates the spheres with a checkers pattern texture. Moving spheres makes the spheres move in a random direction. Add options create a random sized/colored shape in a random location on screen.</description>
     </item>
     
     <item>
-      <title>Turkishcheckers</title>
+      <title>Turkish Checkers</title>
       <link>https://yusufavci99.github.io/projects/turkishcheckers/</link>
       <pubDate>Tue, 30 Mar 2021 17:16:04 +0300</pubDate>
       
       <guid>https://yusufavci99.github.io/projects/turkishcheckers/</guid>
-      <description></description>
+      <description>I created a Turkish Checkers game with AI. It uses the minimax algorithm.</description>
     </item>
     
     <item>
@@ -86,7 +95,8 @@ theme = &amp;#34;theme-name&amp;#34;  Content Organization // Create this to mak
       <pubDate>Tue, 30 Mar 2021 17:15:09 +0300</pubDate>
       
       <guid>https://yusufavci99.github.io/projects/augcards/</guid>
-      <description></description>
+      <description>This is our Senior project. It is a mobile AR card game creation tool.
+Detailed Info</description>
     </item>
     
     <item>
@@ -95,11 +105,11 @@ theme = &amp;#34;theme-name&amp;#34;  Content Organization // Create this to mak
       <pubDate>Tue, 30 Mar 2021 17:14:54 +0300</pubDate>
       
       <guid>https://yusufavci99.github.io/projects/catan/</guid>
-      <description></description>
+      <description>Made a computer adaptation of Catan game as a group of five for Object-Oriented Software Engineering class. Worked with Sockets and Threads. Mainly worked on the networking part. More Info</description>
     </item>
     
     <item>
-      <title>FavoriteAnime</title>
+      <title>My Favorite Animes</title>
       <link>https://yusufavci99.github.io/blog/games/favoriteanime/</link>
       <pubDate>Tue, 30 Mar 2021 17:05:53 +0300</pubDate>
       
@@ -108,7 +118,7 @@ theme = &amp;#34;theme-name&amp;#34;  Content Organization // Create this to mak
     </item>
     
     <item>
-      <title>FavoriteMovies</title>
+      <title>My Favorite Movies</title>
       <link>https://yusufavci99.github.io/blog/games/favoritemovies/</link>
       <pubDate>Tue, 30 Mar 2021 17:05:45 +0300</pubDate>
       
