@@ -1,0 +1,76 @@
+{{ partial "header.html" . }}
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-4 col-md-3 col-lg-3 sidebar">
+
+			{{ partial "sidebar-content.html" . }}
+
+			</div>
+			<div class="col-sm-7 col-sm-offset-4 col-md-6 col-md-offset-3 col-lg-5 col-lg-offset-3 content">
+
+				<h1> {{ .Title}} </h1>
+				{{ .Content }}
+
+				{{ with .Site.GetPage "/projects/" }}
+					<h2>
+						<a href={{ .Permalink }}>Projects</a>
+					</h2>
+				{{ end }}
+
+				{{ with .Site.GetPage "/techblog/" }}
+					<h2>
+						<a href={{ .Permalink }}>Technical Blog</a>
+					</h2>
+				{{ end }}
+
+				{{ with .Site.GetPage "/blog/" }}
+					<h2>
+						<a href={{ .Permalink }}>Blog</a>
+					</h2>
+				{{ end }}
+
+				<hr>
+
+				<h3>Some Interesting Links</h2>
+				<ul>
+					<li>
+						See one of my random favorites, if <a href="#" id="lucky">You Feel Lucky.</a> You can discover something great if you are really lucky! (show, game, etc.)
+					</li>
+					<li>
+						Don't you feel genius enough? Use <a href="https://artunn.github.io/geniusify/">geniusify!</a> by Artun Cura
+					</li>
+					<li>
+						If you fear no block <a href="https://verbante.itch.io/blocks">try this</a> by Verbante
+					</li>
+					<li>
+						Senior Project <a href="https://augcards.github.io/">AugCards</a>
+					</li>
+				</ul>
+
+				
+
+				<!-- {{ range .Paginator.Pages }}
+				<div class="post">
+
+					<div class="post-heading">
+						<h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+						<span>{{ .Date.Format "Jan 2, 2006" }}{{ if .Params.author }} by {{ .Params.author }}{{ end }}</span>
+					</div>
+
+					{{ .Content }}
+
+				</div>
+				{{ end }} -->
+
+				<div class="text-center">
+					{{ template "_internal/pagination.html" . }}
+				</div>
+
+			</div>
+			<div class="col-sm-1 col-md-3 col-md-4">
+			</div>
+		</div>
+	</div>
+
+{{ partial "footer.html" . }}

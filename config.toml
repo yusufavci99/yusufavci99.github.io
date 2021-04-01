@@ -1,0 +1,31 @@
+baseURL = "https://yusufavci99.github.io/"
+languageCode = "en-us"
+title = "Yusuf Avcı"
+author = "Yusuf Avcı"
+theme = "strange-case"
+
+[params]
+	colorScheme = "scheme-darkbrown"
+	DateFormat = "2 Jan 2006"
+    contact_email = "yusufavci99@gmail.com"
+    copyright = "Yusuf Avcı"
+	#description = "Website"
+	#sidebarFreeText = "A optional paragraph of free text. Set to blank in config.toml to clear..."
+[[menu.icons]]
+	name = "GitHub"
+	post = "<span>Github&nbsp&nbsp&nbsp</span> <img style=\"width: 32px;\" src=\"/github_icon.png\">"
+	url = "https://github.com/yusufavci99"
+[[menu.icons]]
+	name = "Linkedin"
+	post = "<span>Linkedin</span> <img style=\"width: 32px;\" src=\"/linkedin.png\">"
+	url = "https://www.linkedin.com/in/yusuf-avci"
+[[menu.icons]]
+	name = "Resume"
+	post = "<span>Resume</span> <img style=\"width: 32px;\" src=\"/resume.png\">"
+	url = "#"
+
+#[[menu.main]]
+#	name = "Hugo"
+#	post = "<span class='glyphicon glyphicon-fire'></span>"
+#	url = "http://gohugo.io"
+

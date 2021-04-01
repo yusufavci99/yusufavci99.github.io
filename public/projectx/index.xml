@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projectx on Yusuf Avcı</title>
+    <link>https://yusufavci99.github.io/projectx/</link>
+    <description>Recent content in Projectx on Yusuf Avcı</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 30 Mar 2021 03:39:03 +0300</lastBuildDate><atom:link href="https://yusufavci99.github.io/projectx/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>B</title>
+      <link>https://yusufavci99.github.io/projectx/b/</link>
+      <pubDate>Tue, 30 Mar 2021 03:37:31 +0300</pubDate>
+      
+      <guid>https://yusufavci99.github.io/projectx/b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A</title>
+      <link>https://yusufavci99.github.io/projectx/a/</link>
+      <pubDate>Tue, 30 Mar 2021 03:37:29 +0300</pubDate>
+      
+      <guid>https://yusufavci99.github.io/projectx/a/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
