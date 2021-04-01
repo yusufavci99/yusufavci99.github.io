@@ -1,4 +1,4 @@
-baseURL = "https://yusufavci99.github.io/"
+baseURL = "https://yusufavci99.github.io"
 languageCode = "en-us"
 title = "Yusuf Avcı"
 author = "Yusuf Avcı"
@@ -13,15 +13,15 @@ theme = "strange-case"
 	#sidebarFreeText = "A optional paragraph of free text. Set to blank in config.toml to clear..."
 [[menu.icons]]
 	name = "GitHub"
-	post = "<span>Github&nbsp&nbsp&nbsp</span> <img style=\"width: 32px;\" src=\"/github_icon.png\">"
+	post = "<span>Github&nbsp&nbsp&nbsp</span> <img style=\"width: 32px;\" src=\"https://yusufavci99.github.io/github_icon.png\">"
 	url = "https://github.com/yusufavci99"
 [[menu.icons]]
 	name = "Linkedin"
-	post = "<span>Linkedin</span> <img style=\"width: 32px;\" src=\"/linkedin.png\">"
+	post = "<span>Linkedin</span> <img style=\"width: 32px;\" src=\"https://yusufavci99.github.io/linkedin.png\">"
 	url = "https://www.linkedin.com/in/yusuf-avci"
 [[menu.icons]]
 	name = "Resume"
-	post = "<span>Resume</span> <img style=\"width: 32px;\" src=\"/resume.png\">"
+	post = "<span>Resume</span> <img style=\"width: 32px;\" src=\"https://yusufavci99.github.io/resume.png\">"
 	url = "#"
 
 #[[menu.main]]
