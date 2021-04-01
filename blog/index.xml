@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Yusuf Avcı</title>
+    <link>https://yusufavci99.github.io/blog/</link>
+    <description>Recent content in Blog on Yusuf Avcı</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 30 Mar 2021 16:58:43 +0300</lastBuildDate><atom:link href="https://yusufavci99.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FavoriteAnime</title>
+      <link>https://yusufavci99.github.io/blog/games/favoriteanime/</link>
+      <pubDate>Tue, 30 Mar 2021 17:05:53 +0300</pubDate>
+      
+      <guid>https://yusufavci99.github.io/blog/games/favoriteanime/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FavoriteMovies</title>
+      <link>https://yusufavci99.github.io/blog/games/favoritemovies/</link>
+      <pubDate>Tue, 30 Mar 2021 17:05:45 +0300</pubDate>
+      
+      <guid>https://yusufavci99.github.io/blog/games/favoritemovies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>My Favorite Games</title>
+      <link>https://yusufavci99.github.io/blog/games/favoritegames/</link>
+      <pubDate>Tue, 30 Mar 2021 17:04:25 +0300</pubDate>
+      
+      <guid>https://yusufavci99.github.io/blog/games/favoritegames/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

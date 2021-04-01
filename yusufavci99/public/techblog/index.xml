@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Technical Blog on Yusuf Avcı</title>
+    <link>https://yusufavci99.github.io/techblog/</link>
+    <description>Recent content in Technical Blog on Yusuf Avcı</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 31 Mar 2021 00:50:57 +0300</lastBuildDate><atom:link href="https://yusufavci99.github.io/techblog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learning Hugo</title>
+      <link>https://yusufavci99.github.io/techblog/hugolearning1/</link>
+      <pubDate>Wed, 31 Mar 2021 00:48:05 +0300</pubDate>
+      
+      <guid>https://yusufavci99.github.io/techblog/hugolearning1/</guid>
+      <description>Essential Commands // To start a project hugo new site first_site // To run server -D to show drafts hugo server -D // To create a post dirname optional hugo new dirname/post_name.md  Add a theme to config.toml
+theme = &amp;#34;theme-name&amp;#34;  Content Organization // Create this to make /dir1/dir2 // accessible hugo new dir1/dir2/_index.md  Archetypes You can change the archetypes to change the front matter defaults. Like dir1.md. If directroy exists, it will be used.</description>
+    </item>
+    
+  </channel>
+</rss>
