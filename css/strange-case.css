@@ -35,6 +35,19 @@ img {
 	max-width:100%;
 }
 
+#listItem {
+	text-decoration: none;
+}
+
+#listItem:hover {
+	color: #85B2D3;
+}
+
+a:hover {
+	color: #85B2D3;
+}
+
+
 /* BLOG CONTENT */
 
 
