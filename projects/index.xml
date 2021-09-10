@@ -98,6 +98,15 @@ The game starts in this position. The playable moves are highlighted when you cl
     </item>
     
     <item>
+      <title>CityBuilder</title>
+      <link>https://yusufavci99.github.io/projects/citybuilder/</link>
+      <pubDate>Wed, 10 Mar 2021 18:23:20 +0300</pubDate>
+      
+      <guid>https://yusufavci99.github.io/projects/citybuilder/</guid>
+      <description>I am working on a mobile city builder game. I implemented panning, zooming and house building. I am planning to add various residentials, commercials etc. to make it a rich strategy game. I will update here when I complete the game.</description>
+    </item>
+    
+    <item>
       <title>Catan</title>
       <link>https://yusufavci99.github.io/projects/catan/</link>
       <pubDate>Mon, 08 Mar 2021 17:14:54 +0300</pubDate>
