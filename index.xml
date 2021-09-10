@@ -8,6 +8,40 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 30 Mar 2021 02:12:53 +0300</lastBuildDate><atom:link href="https://yusufavci99.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Bullet Zone</title>
+      <link>https://yusufavci99.github.io/projects/bulletzone/</link>
+      <pubDate>Fri, 10 Sep 2021 18:11:14 +0300</pubDate>
+      
+      <guid>https://yusufavci99.github.io/projects/bulletzone/</guid>
+      <description>APK File
+A bullet hell style casual mobile game created in Unity. The game is 3D and the projectiles come both horizontally and vertically. Yellow points show the points where the player can go. Each dodged projectile increases your score. The game was done in 3 hours. I am planning to update the game and put it on the Play Store.
+APK File</description>
+    </item>
+    
+    <item>
+      <title>CRSG Author Module</title>
+      <link>https://yusufavci99.github.io/projects/crsgauthormodule/</link>
+      <pubDate>Thu, 05 Aug 2021 17:17:08 +0300</pubDate>
+      
+      <guid>https://yusufavci99.github.io/projects/crsgauthormodule/</guid>
+      <description>Code Review Serious Game Author Module was my summer 2020 internship project. I created a serious game used in teaching the code review process. Players should fix the reviewed codes. Players&#39; submissions are evaluated and scored.
+Used JS, Ace Editor Library, Judge0 API, Ajax, Firebase.
+There are 3 levels to select. The serious game looks like this. Resizing is possible. Here you can see the reviews, see hints. Players can see the solutions if they want to give up.</description>
+    </item>
+    
+    <item>
+      <title>Augcards</title>
+      <link>https://yusufavci99.github.io/projects/augcards/</link>
+      <pubDate>Fri, 30 Jul 2021 17:15:09 +0300</pubDate>
+      
+      <guid>https://yusufavci99.github.io/projects/augcards/</guid>
+      <description>This is our Senior project. It is a mobile AR card game creation tool. You can find many details and images in the reports.
+Game creators can create their games with custom rules by using our event system. There are dozens if images and explanations and source code in the links I am providing.
+Detailed Info
+Final Report</description>
+    </item>
+    
+    <item>
       <title>Learning Hugo</title>
       <link>https://yusufavci99.github.io/techblog/hugolearning1/</link>
       <pubDate>Wed, 31 Mar 2021 00:48:05 +0300</pubDate>
@@ -36,17 +70,6 @@ I and Sonat Uzun created 3D keyframe animations with WebGL. It is possible to sa
       <description>Source Code
 Created a basic roll-a-ball game with Unity. It uses gyroscope sensors of the phone to controll the ball. There are spikes and a hole that can kill you.
 Falling in a hole can kill you. When the player dies, they see a death message. When the player wins, they see a congratulations message. </description>
-    </item>
-    
-    <item>
-      <title>CRSG Author Module</title>
-      <link>https://yusufavci99.github.io/projects/crsgauthormodule/</link>
-      <pubDate>Tue, 30 Mar 2021 17:17:08 +0300</pubDate>
-      
-      <guid>https://yusufavci99.github.io/projects/crsgauthormodule/</guid>
-      <description>Code Review Serious Game Author Module was my summer 2020 internship project. I created a serious game used in teaching the code review process. Players should fix the reviewed codes. Players&#39; submissions are evaluated and scored.
-Used JS, Ace Editor Library, Judge0 API, Ajax, Firebase.
-There are 3 levels to select. The serious game looks like this. Resizing is possible. Here you can see the reviews, see hints. Players can see the solutions if they want to give up.</description>
     </item>
     
     <item>
@@ -85,27 +108,6 @@ The game starts in this position. The playable moves are highlighted when you cl
     </item>
     
     <item>
-      <title>Augcards</title>
-      <link>https://yusufavci99.github.io/projects/augcards/</link>
-      <pubDate>Tue, 30 Mar 2021 17:15:09 +0300</pubDate>
-      
-      <guid>https://yusufavci99.github.io/projects/augcards/</guid>
-      <description>This is our Senior project. It is a mobile AR card game creation tool. You can find many details and images in the reports.
-Game creators can create their games with custom rules by using our event system. There are dozens if images and explanations and source code in the links I am providing.
-Detailed Info
-Final Report</description>
-    </item>
-    
-    <item>
-      <title>Catan</title>
-      <link>https://yusufavci99.github.io/projects/catan/</link>
-      <pubDate>Tue, 30 Mar 2021 17:14:54 +0300</pubDate>
-      
-      <guid>https://yusufavci99.github.io/projects/catan/</guid>
-      <description>Made a computer adaptation of Catan game as a group of five for Object-Oriented Software Engineering class. Worked with Sockets and Threads. Mainly worked on the networking part. More Info</description>
-    </item>
-    
-    <item>
       <title>My Favorite Animes</title>
       <link>https://yusufavci99.github.io/blog/favoriteanime/</link>
       <pubDate>Tue, 30 Mar 2021 17:05:53 +0300</pubDate>
@@ -132,6 +134,15 @@ It has a perfect setting and atmosphere. I very much like the world they created
       
       <guid>https://yusufavci99.github.io/blog/favoritegames/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Catan</title>
+      <link>https://yusufavci99.github.io/projects/catan/</link>
+      <pubDate>Mon, 08 Mar 2021 17:14:54 +0300</pubDate>
+      
+      <guid>https://yusufavci99.github.io/projects/catan/</guid>
+      <description>Made a computer adaptation of Catan game as a group of five for Object-Oriented Software Engineering class. Worked with Sockets and Threads. Mainly worked on the networking part. More Info</description>
     </item>
     
     <item>
