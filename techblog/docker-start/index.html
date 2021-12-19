@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="generator" content="Hugo 0.82.0" />
 	
-	<title>Bullet Zone</title> 
+	<title>Docker Basics</title> 
 		
 
 	<base href="https://yusufavci99.github.io">
@@ -81,15 +81,25 @@
 				<div class="post">
 
 					<div class="post-heading">
-						<h1>Bullet Zone</h1>
-						<span class="post-date"># Sep 10, 2021</span>
+						<h1>Docker Basics</h1>
+						<span class="post-date"># Oct 25, 2021</span>
 					</div>
 
-					<p><a href="https://drive.google.com/drive/folders/1QgeSHc-KUEoQREIF35xgBSRH4RVOYtAw?usp=sharing">APK File</a></p>
-<p>A bullet hell style casual mobile game created in Unity. The game is 3D and the projectiles come both horizontally and vertically. Yellow points show the points where the player can go. Each dodged projectile increases your score. The game was done in 3 hours. I am planning to update the game and put it on the Play Store.</p>
-<p><img src="projects/bulletZone/lowScore.jpeg" alt="alt text"></p>
-<p><img src="projects/bulletZone/highScore.jpeg" alt="alt text"></p>
-<p><a href="https://drive.google.com/drive/folders/1QgeSHc-KUEoQREIF35xgBSRH4RVOYtAw?usp=sharing">APK File</a></p>
+					<p>Docker is a containerization tool used to create images to run across different computers. It&rsquo;s different from a VM because the containers share the same OS. For docker to run, Docker Desktop should be running in the background and WSL2 should be activated (Windows 10). In Windows, a process named vmmem runs in the background with WSL2 and it uses some RAM. This app is the VM in which the containers run.</p>
+<p>We should create a Dockerfile (no extension) to tell docker how to build the image before using docker build. Or we can run by giving parameters to the docker run command.</p>
+<h2 id="some-useful-commands-in-docker">Some Useful Commands In Docker</h2>
+<ul>
+<li>docker ps [-a](Show All): Shows Processes (Containers).</li>
+<li>docker run [-it](interactive) [-p](publish) [port_out:port_in](Expose Port) imageName: Run A Docker Image by creating a new container.</li>
+<li>docker stop containerName</li>
+<li>docker start [&ndash;interactive] containerName: Start a stopped container.</li>
+<li>docker build folderName</li>
+<li>docker exec -it containerName /bin/bash : Used to enter inside the container machine.</li>
+<li>docker image ls: List Images</li>
+</ul>
+<p>We can also use docker run imageName on docker hub to create a container from an image in the docker hub.</p>
+<h2 id="run-vs-cmd">RUN vs CMD</h2>
+<p>RUN is runned while creating the image. CMD is run when the container starts.</p>
 
 
 				</div>

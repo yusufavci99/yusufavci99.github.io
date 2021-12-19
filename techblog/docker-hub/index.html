@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="generator" content="Hugo 0.82.0" />
+	
+	<title>Creating a Docker Image and Uploading it to DockerHub</title> 
+		
+
+	<base href="https://yusufavci99.github.io">
+	
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+	<link href="https://yusufavci99.github.io/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://yusufavci99.github.io/css/strange-case.css" rel="stylesheet">
+	
+
+	
+	
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+	
+	<link href="" rel="alternate" type="application/rss+xml" title="Yusuf Avcı" />
+</head>
+<body class="scheme-darkbrown">
+
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-4 col-md-3 col-lg-3 sidebar">
+
+			
+	<div class="sidebar-content">
+
+		<a href="https://yusufavci99.github.io"><h1>Yusuf Avcı</h1></a>
+		<p></p>
+
+		
+
+		<ul class="sidebar-menus sidebar-icons">
+                  
+                    <li style="margin-top: 10px;"><a style=" text-decoration: none; " href="https://github.com/yusufavci99"><span>Github&nbsp&nbsp&nbsp</span> <img style="width: 32px;" src="https://yusufavci99.github.io/github_icon.png"></a></li>
+					<br>
+                  
+                    <li style="margin-top: 10px;"><a style=" text-decoration: none; " href="https://www.linkedin.com/in/yusuf-avci"><span>Linkedin</span> <img style="width: 32px;" src="https://yusufavci99.github.io/linkedin.png"></a></li>
+					<br>
+                  
+                    <li style="margin-top: 10px;"><a style=" text-decoration: none; " href="resume.pdf"><span>Resume</span> <img style="width: 32px;" src="https://yusufavci99.github.io/resume.png"></a></li>
+					<br>
+                  
+                </ul>
+
+		<ul class="sidebar-menus">
+                  
+                </ul>
+
+		
+
+		
+		<div class="sidebar-contact">
+			
+			<a href="mailto:yusufavci99@gmail.com">Email</a>
+			&#187;
+			<span>yusufavci99@gmail.com</span>
+		</div>
+		
+
+		<p class="copyright">Yusuf Avcı</p>
+		<p class="attr">Powered by <a href="http://gohugo.io">Hugo</a> &amp; <a href="https://github.com/ExchangeRate-API/strange-case">Strange Case</a></p>
+
+	</div>
+
+
+			</div>
+			<div class="col-sm-7 col-sm-offset-4 col-md-6 col-md-offset-3 col-lg-5 col-lg-offset-3 content">
+
+				<div class="post">
+
+					<div class="post-heading">
+						<h1>Creating a Docker Image and Uploading it to DockerHub</h1>
+						<span class="post-date"># Dec 15, 2021</span>
+					</div>
+
+					<p>I created a nginx web-server container winth docker by using a simple dockerfile.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#a6e22e">FROM</span> <span style="color:#a6e22e">nginx</span>
+<span style="color:#a6e22e">EXPOSE</span> <span style="color:#ae81ff">80</span>
+<span style="color:#a6e22e">COPY</span> <span style="color:#a6e22e">_site</span><span style="color:#f92672">/</span> <span style="color:#f92672">/</span><span style="color:#a6e22e">usr</span><span style="color:#f92672">/</span><span style="color:#a6e22e">share</span><span style="color:#f92672">/</span><span style="color:#a6e22e">nginx</span><span style="color:#f92672">/</span><span style="color:#a6e22e">html</span>
+</code></pre></div>
+<p>Then, create an image via:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#a6e22e">docker</span> <span style="color:#a6e22e">build</span> . <span style="color:#f92672">-</span><span style="color:#a6e22e">t</span> <span style="color:#a6e22e">imagename</span>:<span style="color:#a6e22e">imagetag</span>
+</code></pre></div>
+<h3 id="optional-running-the-image">Optional: Running The Image</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#a6e22e">docker</span> <span style="color:#a6e22e">run</span> [<span style="color:#f92672">--</span><span style="color:#a6e22e">name</span> <span style="color:#a6e22e">containername</span>] [<span style="color:#f92672">-</span><span style="color:#a6e22e">p</span> <span style="color:#a6e22e">outport</span>:<span style="color:#a6e22e">inport</span>] <span style="color:#a6e22e">imagename</span>:<span style="color:#a6e22e">imagetag</span>
+</code></pre></div>
+<h2 id="pushing-the-image">Pushing The Image</h2>
+<p>First, tag the image. Registry host is optional if you are using DockerHub. username/repositoryname suffices.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#a6e22e">docker</span> <span style="color:#a6e22e">tag</span> [<span style="color:#a6e22e">OPTIONS</span>] <span style="color:#a6e22e">IMAGE</span>[:<span style="color:#a6e22e">TAG</span>] [<span style="color:#a6e22e">REGISTRYHOST</span><span style="color:#f92672">/</span>][<span style="color:#a6e22e">USERNAME</span><span style="color:#f92672">/</span>]<span style="color:#a6e22e">NAME</span>[:<span style="color:#a6e22e">TAG</span>]
+</code></pre></div>
+<p>Login to your docker registry. Again, server is optinal for dockerhub.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#a6e22e">docker</span> <span style="color:#a6e22e">login</span> [<span style="color:#a6e22e">SERVER</span>]
+<span style="color:#960050;background-color:#1e0010">#</span> <span style="color:#a6e22e">Then</span> <span style="color:#a6e22e">Enter</span> <span style="color:#a6e22e">Your</span> <span style="color:#a6e22e">Credentials</span>
+</code></pre></div>
+<p>Then, push</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#a6e22e">docker</span> <span style="color:#a6e22e">push</span> <span style="color:#a6e22e">NAME</span>[:<span style="color:#a6e22e">TAG</span>]
+</code></pre></div>
+<h3 id="reference">Reference</h3>
+<p>[1] <a href="https://stackoverflow.com/questions/28349392/how-to-push-a-docker-image-to-a-private-repository">https://stackoverflow.com/questions/28349392/how-to-push-a-docker-image-to-a-private-repository</a></p>
+<p>[2] <a href="https://rickyhan.com/jekyll/update/2017/09/05/deploy-static-website-on-kubernetes.html">https://rickyhan.com/jekyll/update/2017/09/05/deploy-static-website-on-kubernetes.html</a></p>
+
+
+				</div>
+
+			</div>
+			<div class="col-sm-1 col-md-3 col-md-4">
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script src="https://yusufavci99.github.io/js/bootstrap.min.js"></script>
+
+</body>
+</html>

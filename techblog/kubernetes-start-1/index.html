@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="generator" content="Hugo 0.82.0" />
 	
-	<title>Bullet Zone</title> 
+	<title>Kubernetes Basics</title> 
 		
 
 	<base href="https://yusufavci99.github.io">
@@ -81,15 +81,25 @@
 				<div class="post">
 
 					<div class="post-heading">
-						<h1>Bullet Zone</h1>
-						<span class="post-date"># Sep 10, 2021</span>
+						<h1>Kubernetes Basics</h1>
+						<span class="post-date"># Nov 18, 2021</span>
 					</div>
 
-					<p><a href="https://drive.google.com/drive/folders/1QgeSHc-KUEoQREIF35xgBSRH4RVOYtAw?usp=sharing">APK File</a></p>
-<p>A bullet hell style casual mobile game created in Unity. The game is 3D and the projectiles come both horizontally and vertically. Yellow points show the points where the player can go. Each dodged projectile increases your score. The game was done in 3 hours. I am planning to update the game and put it on the Play Store.</p>
-<p><img src="projects/bulletZone/lowScore.jpeg" alt="alt text"></p>
-<p><img src="projects/bulletZone/highScore.jpeg" alt="alt text"></p>
-<p><a href="https://drive.google.com/drive/folders/1QgeSHc-KUEoQREIF35xgBSRH4RVOYtAw?usp=sharing">APK File</a></p>
+					<p>Hierarchy</p>
+<p>Cluster contains Node. Node contains multiple Pod. Pod usually has a single Container. You don’t directly create Pods. You do deployments which creates pods.</p>
+<p>How To Create Deployment?</p>
+<p>kubectl create deployment {NAME} –image={image} [–dry-run] [options]</p>
+<p>Example</p>
+<p>kubectl create deployment nginx-depl –image=nginx</p>
+<h2 id="kubectl">Kubectl</h2>
+<h2 id="nodes">Nodes</h2>
+<h2 id="deployments">Deployments</h2>
+<h2 id="services">Services</h2>
+<h2 id="loadbalancer">LoadBalancer</h2>
+<h2 id="ingress">Ingress</h2>
+<h2 id="cert-maanger">Cert Maanger</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go">
+</code></pre></div>
 
 
 				</div>
