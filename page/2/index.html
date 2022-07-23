@@ -29,6 +29,8 @@
 <body class="scheme-darkbrown">
 
 	<script src="https://yusufavci99.github.io/js/favFilms.js"></script>
+    <script src="https://yusufavci99.github.io/js/miniGame.js"></script>
+    <link href="https://yusufavci99.github.io/css/custom.css" rel="stylesheet">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-sm-4 col-md-3 col-lg-3 sidebar">
@@ -101,6 +103,12 @@
 					</h2>
 				
 
+                
+					<h2>
+						<a id="mg_hidden_link" hidden href=https://yusufavci99.github.io/yemek/>Yemek</a>
+					</h2>
+				
+
 				<hr>
 
 				<h3>Some Interesting Links</h2>
@@ -117,6 +125,9 @@
 					<li>
 						Senior Project <a href="https://augcards.github.io/">AugCards</a>
 					</li>
+                    <li>
+						Play my <a id="miniGameButton" href="#">Minigame</a>
+					</li>
 				</ul>
 
 				
@@ -127,6 +138,13 @@
 
 			</div>
 			<div class="col-sm-1 col-md-3 col-md-4">
+                <div id="mg_minigame" hidden>
+                    <h3>The Hidden Minigame</h3>
+                    <svg width="400" height="110">
+                        <rect id="mg_randomColor" width="300" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
+                    </svg>
+                    <div id="mg_inputField" style="display: flex;"></div>
+                </div>
 			</div>
 		</div>
 	</div>
