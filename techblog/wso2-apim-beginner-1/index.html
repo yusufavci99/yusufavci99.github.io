@@ -4,16 +4,16 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="generator" content="Hugo 0.82.0" />
+	<meta name="generator" content="Hugo 0.119.0">
 	
 	<title>WSO2 APIM Beginner&#39;s Guide</title> 
 		
 
-	<base href="https://yusufavci99.github.io">
+	<base href="https://yusufavci.dev">
 	
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-	<link href="https://yusufavci99.github.io/css/bootstrap.min.css" rel="stylesheet">
-	<link href="https://yusufavci99.github.io/css/strange-case.css" rel="stylesheet">
+	<link href="https://yusufavci.dev/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://yusufavci.dev/css/strange-case.css" rel="stylesheet">
 	
 
 	
@@ -36,20 +36,20 @@
 			
 	<div class="sidebar-content">
 
-		<a href="https://yusufavci99.github.io"><h1>Yusuf Avcı</h1></a>
+		<a href="https://yusufavci.dev"><h1>Yusuf Avcı</h1></a>
 		<p></p>
 
 		
 
 		<ul class="sidebar-menus sidebar-icons">
                   
-                    <li style="margin-top: 10px;"><a style=" text-decoration: none; " href="https://github.com/yusufavci99"><span>Github&nbsp&nbsp&nbsp</span> <img style="width: 32px;" src="https://yusufavci99.github.io/github_icon.png"></a></li>
+                    <li style="margin-top: 10px;"><a style=" text-decoration: none; " href="https://github.com/yusufavci99"><span>Github&nbsp&nbsp&nbsp</span> <img style="width: 32px;" src="https://yusufavci.dev/github_icon.png"></a></li>
 					<br>
                   
-                    <li style="margin-top: 10px;"><a style=" text-decoration: none; " href="https://www.linkedin.com/in/yusuf-avci"><span>Linkedin</span> <img style="width: 32px;" src="https://yusufavci99.github.io/linkedin.png"></a></li>
+                    <li style="margin-top: 10px;"><a style=" text-decoration: none; " href="https://www.linkedin.com/in/yusuf-avci"><span>Linkedin</span> <img style="width: 32px;" src="https://yusufavci.dev/linkedin.png"></a></li>
 					<br>
                   
-                    <li style="margin-top: 10px;"><a style=" text-decoration: none; " href="resume.pdf"><span>Resume</span> <img style="width: 32px;" src="https://yusufavci99.github.io/resume.png"></a></li>
+                    <li style="margin-top: 10px;"><a style=" text-decoration: none; " href="resume.pdf"><span>Resume</span> <img style="width: 32px;" src="https://yusufavci.dev/resume.png"></a></li>
 					<br>
                   
                 </ul>
@@ -90,13 +90,12 @@
 <h2 id="installation">Installation</h2>
 <p>I installed WSO2 APIM on Docker and used the installation guide provided in</p>
 <p><a href="https://wso2.com/api-management/install/docker/get-started/">The Official WSO2 site</a>. The installation is fairly straightforward. However, there is a catch. For some reason docker run command <strong>doesn’t work</strong> unless you do the fix below.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#a6e22e">docker</span> <span style="color:#a6e22e">run</span> <span style="color:#f92672">-</span><span style="color:#a6e22e">it</span> \
-   <span style="color:#f92672">-</span><span style="color:#a6e22e">p</span> <span style="color:#ae81ff">9443</span>:<span style="color:#ae81ff">9443</span> \
-   <span style="color:#f92672">-</span><span style="color:#a6e22e">p</span> <span style="color:#ae81ff">8243</span>:<span style="color:#ae81ff">8243</span> \
-   <span style="color:#f92672">-</span><span style="color:#a6e22e">p</span> <span style="color:#ae81ff">8280</span>:<span style="color:#ae81ff">8280</span> \
-   <span style="color:#a6e22e">docker</span>.<span style="color:#a6e22e">wso2</span>.<span style="color:#a6e22e">com</span><span style="color:#f92672">/</span><span style="color:#a6e22e">wso2am</span> <span style="color:#f92672">-</span>&gt; <span style="color:#a6e22e">This</span> <span style="color:#a6e22e">Line</span>
-   <span style="color:#a6e22e">wso2</span><span style="color:#f92672">/</span><span style="color:#a6e22e">wso2am</span> <span style="color:#f92672">-</span>&gt; <span style="color:#a6e22e">Should</span> <span style="color:#a6e22e">Be</span> <span style="color:#a6e22e">Changed</span> <span style="color:#a6e22e">To</span> <span style="color:#a6e22e">This</span>
-</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#a6e22e">docker</span> <span style="color:#a6e22e">run</span> <span style="color:#f92672">-</span><span style="color:#a6e22e">it</span> \
+</span></span><span style="display:flex;"><span>   <span style="color:#f92672">-</span><span style="color:#a6e22e">p</span> <span style="color:#ae81ff">9443</span>:<span style="color:#ae81ff">9443</span> \
+</span></span><span style="display:flex;"><span>   <span style="color:#f92672">-</span><span style="color:#a6e22e">p</span> <span style="color:#ae81ff">8243</span>:<span style="color:#ae81ff">8243</span> \
+</span></span><span style="display:flex;"><span>   <span style="color:#f92672">-</span><span style="color:#a6e22e">p</span> <span style="color:#ae81ff">8280</span>:<span style="color:#ae81ff">8280</span> \
+</span></span><span style="display:flex;"><span>   <span style="color:#a6e22e">docker</span>.<span style="color:#a6e22e">wso2</span>.<span style="color:#a6e22e">com</span><span style="color:#f92672">/</span><span style="color:#a6e22e">wso2am</span> <span style="color:#f92672">-</span>&gt; <span style="color:#a6e22e">This</span> <span style="color:#a6e22e">Line</span>
+</span></span><span style="display:flex;"><span>   <span style="color:#a6e22e">wso2</span><span style="color:#f92672">/</span><span style="color:#a6e22e">wso2am</span> <span style="color:#f92672">-</span>&gt; <span style="color:#a6e22e">Should</span> <span style="color:#a6e22e">Be</span> <span style="color:#a6e22e">Changed</span> <span style="color:#a6e22e">To</span> <span style="color:#a6e22e">This</span></span></span></code></pre></div>
 <p>When you run the container,</p>
 <p>https://localhost:9443/publisher/ carbon, devportal and admin pages become available on port 9443 (couldn’t they have just a single page…). I will focus on the usage of the publisher page because the gateway operations can be done there.</p>
 <p><strong>Warning: Below is work in progress!</strong></p>
@@ -131,7 +130,7 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-<script src="https://yusufavci99.github.io/js/bootstrap.min.js"></script>
+<script src="https://yusufavci.dev/js/bootstrap.min.js"></script>
 
 </body>
 </html>

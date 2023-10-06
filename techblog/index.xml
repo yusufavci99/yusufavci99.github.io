@@ -2,64 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Technical Blog on Yusuf Avcı</title>
-    <link>https://yusufavci99.github.io/techblog/</link>
+    <link>https://yusufavci.dev/techblog/</link>
     <description>Recent content in Technical Blog on Yusuf Avcı</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 31 Mar 2021 00:50:57 +0300</lastBuildDate><atom:link href="https://yusufavci99.github.io/techblog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 31 Mar 2021 00:50:57 +0300</lastBuildDate><atom:link href="https://yusufavci.dev/techblog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Creating a Docker Image and Uploading it to DockerHub</title>
-      <link>https://yusufavci99.github.io/techblog/docker-hub/</link>
+      <link>https://yusufavci.dev/techblog/docker-hub/</link>
       <pubDate>Wed, 15 Dec 2021 00:48:05 +0300</pubDate>
       
-      <guid>https://yusufavci99.github.io/techblog/docker-hub/</guid>
+      <guid>https://yusufavci.dev/techblog/docker-hub/</guid>
       <description>I created a nginx web-server container winth docker by using a simple dockerfile.
-FROM nginx EXPOSE 80 COPY _site/ /usr/share/nginx/html  Then, create an image via:
-docker build . -t imagename:imagetag  Optional: Running The Image docker run [--name containername] [-p outport:inport] imagename:imagetag  Pushing The Image First, tag the image. Registry host is optional if you are using DockerHub. username/repositoryname suffices.
-docker tag [OPTIONS] IMAGE[:TAG] [REGISTRYHOST/][USERNAME/]NAME[:TAG]  Login to your docker registry.</description>
-    </item>
-    
-    <item>
-      <title>Kubernetes Basics</title>
-      <link>https://yusufavci99.github.io/techblog/kubernetes-start-1/</link>
-      <pubDate>Thu, 18 Nov 2021 00:48:05 +0300</pubDate>
-      
-      <guid>https://yusufavci99.github.io/techblog/kubernetes-start-1/</guid>
-      <description>Hierarchy
-Cluster contains Node. Node contains multiple Pod. Pod usually has a single Container. You don’t directly create Pods. You do deployments which creates pods.
-How To Create Deployment?
-kubectl create deployment {NAME} –image={image} [–dry-run] [options]
-Example
-kubectl create deployment nginx-depl –image=nginx
-Kubectl Nodes Deployments Services LoadBalancer Ingress Cert Maanger  </description>
+FROM nginx EXPOSE 80 COPY _site/ /usr/share/nginx/html Then, create an image via:
+docker build . -t imagename:imagetag Optional: Running The Image docker run [--name containername] [-p outport:inport] imagename:imagetag Pushing The Image First, tag the image. Registry host is optional if you are using DockerHub. username/repositoryname suffices.
+docker tag [OPTIONS] IMAGE[:TAG] [REGISTRYHOST/][USERNAME/]NAME[:TAG] Login to your docker registry. Again, server is optinal for dockerhub.</description>
     </item>
     
     <item>
       <title>WSO2 APIM Beginner&#39;s Guide</title>
-      <link>https://yusufavci99.github.io/techblog/wso2-apim-beginner-1/</link>
+      <link>https://yusufavci.dev/techblog/wso2-apim-beginner-1/</link>
       <pubDate>Tue, 09 Nov 2021 00:48:05 +0300</pubDate>
       
-      <guid>https://yusufavci99.github.io/techblog/wso2-apim-beginner-1/</guid>
+      <guid>https://yusufavci.dev/techblog/wso2-apim-beginner-1/</guid>
       <description>Starting to use WSO2 was a hellish experince in the beginning. There are numerous products. The documentation expects you to have some understanding of the system and most of the tutorial’s are that way too. There is also an Enterprise Integrator and Integration Studio that comes with it. Note that I’m new in WSO2 and this post may contain some misinformation. If you want to contribute, you can mail yusufavci99 at gmail.</description>
     </item>
     
     <item>
       <title>Docker Basics</title>
-      <link>https://yusufavci99.github.io/techblog/docker-start/</link>
+      <link>https://yusufavci.dev/techblog/docker-start/</link>
       <pubDate>Mon, 25 Oct 2021 00:48:05 +0300</pubDate>
       
-      <guid>https://yusufavci99.github.io/techblog/docker-start/</guid>
+      <guid>https://yusufavci.dev/techblog/docker-start/</guid>
       <description>Docker is a containerization tool used to create images to run across different computers. It&amp;rsquo;s different from a VM because the containers share the same OS. For docker to run, Docker Desktop should be running in the background and WSL2 should be activated (Windows 10). In Windows, a process named vmmem runs in the background with WSL2 and it uses some RAM. This app is the VM in which the containers run.</description>
     </item>
     
     <item>
       <title>Learning Hugo</title>
-      <link>https://yusufavci99.github.io/techblog/hugolearning1/</link>
+      <link>https://yusufavci.dev/techblog/hugolearning1/</link>
       <pubDate>Wed, 31 Mar 2021 00:48:05 +0300</pubDate>
       
-      <guid>https://yusufavci99.github.io/techblog/hugolearning1/</guid>
-      <description>Essential Commands // To start a project hugo new site first_site // To run server -D to show drafts hugo server -D // To create a post dirname optional hugo new dirname/post_name.md  Add a theme to config.toml
-theme = &amp;#34;theme-name&amp;#34;  Content Organization // Create this to make /dir1/dir2 // accessible hugo new dir1/dir2/_index.md  Archetypes You can change the archetypes to change the front matter defaults. Like dir1.md. If directroy exists, it will be used.</description>
+      <guid>https://yusufavci.dev/techblog/hugolearning1/</guid>
+      <description>Essential Commands // To start a project hugo new site first_site // To run server -D to show drafts hugo server -D // To create a post dirname optional hugo new dirname/post_name.md Add a theme to config.toml
+theme = &amp;#34;theme-name&amp;#34; Content Organization // Create this to make /dir1/dir2 // accessible hugo new dir1/dir2/_index.md Archetypes You can change the archetypes to change the front matter defaults. Like dir1.md. If directroy exists, it will be used.</description>
     </item>
     
   </channel>
